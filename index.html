@@ -3,117 +3,267 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>New Style Logistics LLC | Freight & Logistics Solutions</title>
-<meta name="description" content="New Style Logistics LLC provides reliable air freight, sea freight, land transport, customs clearance, cargo transport and warehouse solutions in UAE and worldwide.">
+
+<title>New Style Logistics LLC | Freight & Logistics Company Dubai</title>
+
+<meta name="description" content="New Style Logistics LLC is a Dubai-based logistics company providing Air Freight, Sea Freight, Land Transport, Customs Clearance, Cargo Transport and Warehouse Facilities across UAE and worldwide.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-body{margin:0;font-family:Poppins,Arial,sans-serif;background:#f4f7fb;color:#222}
-header{background:linear-gradient(135deg,#0a2540,#123b6d);color:#fff}
-.container{max-width:1200px;margin:auto;padding:20px}
-.nav{display:flex;justify-content:space-between;align-items:center}
-.nav img{height:60px}
-.nav a{color:#fff;margin:0 12px;text-decoration:none;font-weight:600}
-.hero{padding:120px 20px;text-align:center;background:url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b') center/cover no-repeat;color:#fff}
-.hero h1{font-size:48px;margin-bottom:15px}
-.hero p{font-size:18px;max-width:800px;margin:auto}
-section{padding:80px 20px}
-h2{text-align:center;color:#0a2540;font-size:34px;margin-bottom:40px}
-.about{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;align-items:center}
-.about img{width:100%;border-radius:14px}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
-.card{background:#fff;padding:25px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.08)}
-.card img{width:100%;height:180px;object-fit:cover;border-radius:12px;margin-bottom:15px}
-.why{background:#fff;border-radius:20px;padding:40px;box-shadow:0 10px 30px rgba(0,0,0,0.08);max-width:1000px;margin:auto}
-.why li{margin-bottom:10px;font-weight:500}
-.reviews{background:#fff}
-.review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:1000px;margin:auto}
-.review-card{background:#f4f7fb;padding:25px;border-radius:14px;box-shadow:0 8px 20px rgba(0,0,0,0.08)}
-.contact{background:linear-gradient(135deg,#0a2540,#123b6d);color:#fff;text-align:center}
-.contact a{color:#fff;text-decoration:none;font-weight:600}
-footer{background:#000;color:#aaa;text-align:center;padding:20px;font-size:14px}
-.float{position:fixed;right:20px;bottom:20px;background:#25d366;color:#fff;padding:14px 18px;border-radius:50px;text-decoration:none;font-weight:700;box-shadow:0 10px 25px rgba(0,0,0,.3)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Poppins',sans-serif;
+  background:#f5f7fb;
+  color:#222;
+}
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:0 20px;
+}
+
+/* HEADER */
+header{
+  background:#081c30;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:16px 0;
+}
+.nav h1{
+  color:#fff;
+  font-size:26px;
+  font-weight:800;
+}
+.nav a{
+  color:#fff;
+  margin-left:18px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* HERO */
+.hero{
+  background:
+  linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+  url("https://images.unsplash.com/photo-1542228262-3d663b3063e4");
+  background-size:cover;
+  background-position:center;
+  padding:130px 20px;
+  text-align:center;
+  color:#fff;
+}
+.hero h2{
+  font-size:46px;
+  font-weight:800;
+  margin-bottom:15px;
+}
+.hero p{
+  font-size:18px;
+  max-width:900px;
+  margin:auto;
+}
+
+/* SECTION */
+section{
+  padding:90px 20px;
+}
+section h2{
+  text-align:center;
+  font-size:34px;
+  font-weight:800;
+  margin-bottom:30px;
+}
+
+/* ABOUT */
+.about{
+  background:#fff;
+}
+.about p{
+  max-width:900px;
+  margin:auto;
+  font-size:16px;
+  line-height:1.8;
+  text-align:center;
+}
+
+/* SERVICES */
+.services{
+  background:#f5f7fb;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+}
+.card{
+  background:#fff;
+  border-radius:16px;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 12px 30px rgba(0,0,0,.1);
+}
+.card h3{
+  font-size:20px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+.card p{
+  font-size:14px;
+  color:#555;
+}
+
+/* WHY */
+.why{
+  background:#fff;
+}
+.why ul{
+  max-width:850px;
+  margin:auto;
+  list-style:none;
+}
+.why li{
+  padding:12px 0;
+  font-size:16px;
+  font-weight:600;
+}
+
+/* CONTACT */
+.contact{
+  background:#081c30;
+  color:#fff;
+  text-align:center;
+}
+.contact p{
+  font-size:16px;
+  font-weight:600;
+  margin:12px 0;
+}
+
+/* FOOTER */
+footer{
+  background:#061425;
+  color:#ccc;
+  text-align:center;
+  padding:18px;
+  font-size:14px;
+}
+
+/* WHATSAPP */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25d366;
+  color:#fff;
+  padding:14px 20px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:700;
+  box-shadow:0 8px 25px rgba(0,0,0,.35);
+}
 </style>
 </head>
+
 <body>
 
 <header>
   <div class="container nav">
-    <img src="logo.png" alt="New Style Logistics LLC">
+    <h1>New Style Logistics LLC</h1>
     <div>
       <a href="#about">About</a>
       <a href="#services">Services</a>
-      <a href="#why">Why Us</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
 </header>
 
 <section class="hero">
-  <h1>Reliable Freight & Logistics Solutions</h1>
-  <p>Providing innovative and professional logistics services across the globe, ensuring safe, secure, and timely delivery of cargo.</p>
+  <h2>Reliable Freight & Logistics Solutions</h2>
+  <p>
+    Providing innovative, secure and professional logistics services across Dubai, UAE and worldwide —
+    ensuring safe, timely and cost-effective delivery of your cargo.
+  </p>
 </section>
 
-<section id="about">
-  <div class="container about">
-    <div>
-      <h2>About New Style Logistics LLC</h2>
-      <p>New Style Logistics LLC is a trusted logistics and freight forwarding company based in the UAE. We specialize in delivering reliable, cost-effective, and customized logistics solutions for businesses of all sizes.</p>
-      <p>Our continued growth is driven by customer satisfaction, strong global partnerships, and a commitment to operational excellence across air, sea, and land freight services.</p>
-    </div>
-    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d" alt="Logistics Operations">
+<section id="about" class="about">
+  <div class="container">
+    <h2>About New Style Logistics LLC</h2>
+    <p>
+      New Style Logistics LLC is a trusted freight and logistics company based in Dubai, UAE.
+      We provide complete end-to-end logistics solutions including air freight, sea freight, land transport,
+      customs clearance, cargo handling and warehouse facilities.
+      Our experienced team focuses on efficiency, reliability and customer satisfaction,
+      supporting businesses with smooth global supply chain operations.
+    </p>
   </div>
 </section>
 
-<section id="services">
+<section id="services" class="services">
   <div class="container">
     <h2>Our Services</h2>
-    <div class="services">
-      <div class="card"><img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957"><h3>Air Freight</h3><p>Fast and secure air cargo solutions for time-sensitive shipments worldwide.</p></div>
-      <div class="card"><img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df"><h3>Sea Freight</h3><p>Cost-effective sea freight solutions with global port connectivity.</p></div>
-      <div class="card"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf"><h3>Land Transport</h3><p>Reliable road transport services across UAE and GCC countries.</p></div>
-      <div class="card"><img src="https://images.unsplash.com/photo-1581091870622-2c1c9a2c3c0f"><h3>Customs Clearance</h3><p>Smooth customs handling with full regulatory compliance.</p></div>
-      <div class="card"><img src="https://images.unsplash.com/photo-1591768793355-74d04bb6608f"><h3>Warehouse Facility</h3><p>Secure and modern warehousing with inventory management.</p></div>
-      <div class="card"><img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088"><h3>Cargo Transport</h3><p>End-to-end cargo transport and distribution solutions.</p></div>
+    <div class="grid">
+      <div class="card">
+        <h3>✈️ Air Freight</h3>
+        <p>Fast and reliable air cargo services for urgent and time-critical shipments worldwide.</p>
+      </div>
+      <div class="card">
+        <h3>🚢 Sea Freight</h3>
+        <p>Cost-effective and secure sea freight solutions for full and partial container loads.</p>
+      </div>
+      <div class="card">
+        <h3>🚚 Land Transport</h3>
+        <p>Efficient road transport services across UAE and GCC countries.</p>
+      </div>
+      <div class="card">
+        <h3>📄 Customs Clearance</h3>
+        <p>Professional customs documentation and clearance for smooth cargo movement.</p>
+      </div>
+      <div class="card">
+        <h3>📦 Cargo Transport</h3>
+        <p>Safe handling and delivery of all types of commercial cargo.</p>
+      </div>
+      <div class="card">
+        <h3>🏢 Warehouse Facility</h3>
+        <p>Secure warehousing, storage and distribution solutions for your goods.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="why">
-  <div class="container why">
+<section class="why">
+  <div class="container">
     <h2>Why Choose Us</h2>
     <ul>
-      <li>Professional and experienced logistics team</li>
-      <li>On-time and secure cargo delivery</li>
-      <li>Customer-focused approach</li>
-      <li>Competitive pricing</li>
-      <li>Global logistics network</li>
+      <li>✔ Dubai-based professional logistics company</li>
+      <li>✔ Experienced and dedicated logistics team</li>
+      <li>✔ On-time delivery and competitive pricing</li>
+      <li>✔ Complete freight, customs and warehouse solutions</li>
+      <li>✔ Customer-focused and reliable service</li>
     </ul>
   </div>
 </section>
 
-<section class="reviews">
-  <h2>What Our Clients Say</h2>
-  <div class="review-grid">
-    <div class="review-card">⭐⭐⭐⭐⭐<p>Very professional logistics service with excellent communication.</p><strong>Dubai Client</strong></div>
-    <div class="review-card">⭐⭐⭐⭐⭐<p>Reliable freight forwarding and smooth customs clearance.</p><strong>UAE Business</strong></div>
-    <div class="review-card">⭐⭐⭐⭐⭐<p>Trusted logistics partner with competitive pricing.</p><strong>Logistics Partner</strong></div>
-  </div>
-</section>
-
 <section id="contact" class="contact">
-  <div class="container">
-    <h2>Contact Us</h2>
-    <p>📞 Phone: <a href="tel:+97145914550">+971 4 591 4550</a></p>
-    <p>📱 WhatsApp: <a href="https://wa.me/971561436491">+971 56 143 6491</a></p>
-    <p>✉️ Email: <a href="mailto:alwahti@newstylelogistics.com">alwahti@newstylelogistics.com</a></p>
-  </div>
+  <h2>Contact Details</h2>
+  <p>📞 Call: +971 4 591 4550</p>
+  <p>💬 WhatsApp: +971 56 143 6491</p>
+  <p>✉️ Email: alwahti@newstylelogistics.com</p>
 </section>
 
 <footer>
-  © 2026 New Style Logistics LLC. All Rights Reserved.
+  © 2026 New Style Logistics LLC — Dubai, United Arab Emirates
 </footer>
 
-<a class="float" href="https://wa.me/971561436491">WhatsApp</a>
+<a class="whatsapp" href="https://wa.me/971561436491" target="_blank">
+💬 WhatsApp Us
+</a>
 
 </body>
 </html>
